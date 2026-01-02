@@ -121,7 +121,7 @@ def format_weather_summary(weather_data):
         summary += "⚠️ Wet/slippery conditions expected. Drive carefully!\n"
     elif "fog" in description.lower() or "mist" in description.lower():
         summary += "⚠️ Reduced visibility. Use caution while driving!\n"
-    elif wind_speed > 25:
+    elif isinstance(wind_speed, (int, float)) and wind_speed > 25:
         summary += "⚠️ High winds. Be careful with high-profile vehicles!\n"
     else:
         summary += "✅ Normal driving conditions expected.\n"
