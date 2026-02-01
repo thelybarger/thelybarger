@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @thelybarger
-- 👀 I’m interested in learing data science.  
+- 👀 I’m interested in learning data science.  
 - 🌱 I’m currently learning more on statistics using Python and Power Query within Power BI. 
 - 💞️ I’m not looking to collaborate on anything right now.
 
